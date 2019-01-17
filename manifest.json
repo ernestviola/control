@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Control",
+    "description": "Take control of your web browsing habits",
+    "version": "1.0",
+    "author": "Ernest Viola",
+    "browser_action": {
+        "default_title": "Control"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
